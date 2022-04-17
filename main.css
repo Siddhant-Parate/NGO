@@ -256,3 +256,71 @@ body{
 }
 
 /*---- End of stories ---*/
+
+/*--- Project --*/
+
+.project-container{
+    background: #136d01;
+    position: relative;
+    overflow: hidden;
+}
+.donation{
+    background:#7ff767;
+    color:black;
+    padding:3px 3.5px;
+    position: absolute;
+    right:0;
+    top:70%;
+    transform: translateX(110%);
+    transition: all 1s ease-in-out;
+}
+.donation:hover{
+    color:#000;
+}
+.project-container:hover .donation{
+    transform: translateX(0%);
+}
+.outline{
+    display: inline-block;
+    vertical-align:middle;
+    transform:perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    position: relative;
+}
+.outline:before{
+    content:'';
+    position:absolute;
+    border: #7ff767 solid 4px;
+    top:4px;
+    left: 4px;
+    right:4px;
+    bottom:4px;
+    opacity:0;
+    transition-duration: 0.3s;
+    transition-property: opacity;
+
+}
+.outline:hover:before,
+.outline:focus:before,
+.outline:active:before{
+    opacity:1;
+}
+
+
+.grow{
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow:0 0 10px #7ff767;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+}
+.grow:hover,
+.grow:focus,
+.grow:active{
+    box-shadow: 5px 10px 10px 5px;
+    color: #7ff767;
+    transform: scale(1.1);
+}
+
+/*--- End of Project --*/
