@@ -7,7 +7,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .nav-bg{
-    background: rgba(20,54,1,0.6);
+    background: #f97316;
 }
 .navbar-nav .nav-link{
     color:#fff!important;
@@ -29,7 +29,7 @@ body{
     top:0;
     width:130%;
     height:95%;
-    background:linear-gradient(to right,rgba(110,155,39,0.6),rgba(20,54,1,0.4)),url("./Images/hero.jpg") center top no-repeat;/*image-size 1920H 1080W*/
+    background:linear-gradient(to right,#fcd34d,#f97316),url("./Images/hero.jpg") center top no-repeat;/*image-size 1920H 1080W*/
     z-index:0;
     border-radius: 0 0 50% 50%;
     transform:translateX(-50%) rotate(0deg);
@@ -41,7 +41,7 @@ body{
     top:0;
     width:130%;
     height:96%;
-    background:rgba(110,155,39,0.8);
+    background:#fcd34d;
     opacity:0.3;
     z-index:0;
     border-radius:0 0 50% 50%;
@@ -97,8 +97,8 @@ body{
     border:2px solid #9ef596;
 }
 #hero .hero-btn:hover{
-    background:#0a6801;
-    color:#fff;
+    background:black;
+    color:black;
     text-decoration:none;
 }
 @media(min-width:1024px){
@@ -157,17 +157,17 @@ body{
     border-radius:4px;
     color:#000;
     font-weight:bold;
-    border:1px solid rgba(20,54,1,0.6);
+    border:1px solid #f97316;
     font-size:20px;
     line-height: 30px;
 }
 .tabs .nav-pills .nav-item .nav-link span{
-    color:#053001;
+    color:#f97316;
     font-size:30px;
 }
 .tabs .nav-pills .nav-item .nav-link.active{
     color:#fff;
-    background:#053001;
+    background:#f97316;
     border:1px solid #9ef596;
 }
 .tabs .nav-pills .nav-item .nav-link.active span{
@@ -178,7 +178,7 @@ body{
     padding:0;
 }
 .tabs .tab-content .img{/*images-size for this section 1000 x 667 */
-    width:100%;
+    width:auto;
     height:400px;
     margin-bottom:20px;
 }
@@ -193,7 +193,7 @@ body{
 /*========Stories========*/
 .story-box{
     padding:15px;
-    background:#c6f8bc;
+    background:#f97316;
     margin-bottom:30px;
     position:relative;
 }
@@ -205,7 +205,7 @@ body{
 }
 .story-icon i{
     font-size:50px;
-    color:#fff;
+    color:#9a3412;
     mix-blend-mode: difference;
 }
 
@@ -235,7 +235,7 @@ body{
     content:'';
     width:50%;
     height: 100%;
-    background: #053001;
+    background: #fcd34d;
     position: absolute;
     top:0;
     left:0;
@@ -243,20 +243,20 @@ body{
     
 }
 .overlay:hover:before{
-    background:#053001;
+    background:#fcd34d;
     width:100%;
     border-radius:10px;
 }
 /*========End of the Stories========*/
 /*============Projects Section=======*/
 .project-container{
-    background: #136d01;
+    background: #fcd34d;
     position: relative;
     overflow: hidden;
 }
 .donation{
-    background:#7ff767;
-    color:black;
+    background:#f97316;
+    color:#f97316;
     padding:3px 3.5px;
     position: absolute;
     right:0;
@@ -265,7 +265,7 @@ body{
     transition: all 1s ease-in-out;
 }
 .donation:hover{
-    color:#000;
+    color:#f97316;
 }
 .project-container:hover .donation{
     transform: translateX(0%);
@@ -274,13 +274,13 @@ body{
     display: inline-block;
     vertical-align:middle;
     transform:perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0,0,0,0);
+    box-shadow: 0 0 1px #9a3412;
     position: relative;
 }
 .outline:before{
     content:'';
     position:absolute;
-    border: #7ff677 solid 4px;
+    border: #f97316 solid 4px;
     top:4px;
     left: 4px;
     right:4px;
@@ -299,15 +299,15 @@ body{
     display: inline-block;
     vertical-align: middle;
     transform: perspective(1px) translateZ(0);
-    box-shadow:0 0 10px #7ff767;
+    box-shadow:0 0 10px #f97316;
     transition-duration:0.3s;
     transition-property: box-shadow, transform;
 }
 .grow:hover,
 .grow:focus,
 .grow:active{
-    box-shadow: 0 10px 10px 5px #7ff767;
-    transform: scale(1.1);
+    box-shadow: 0 10px 10px 5px #f97316;
+    transform: scale(1.2);
 }
 /*====end of Projects Section======*/
 /*====Team Section======*/
@@ -335,8 +335,8 @@ body{
     bottom:-48px;
     left:20px;
     right:20px;
-    background: linear-gradient(360deg,#b3f19b 0%,rgba(187,240,152,0.9) 35%,
-    rgba(0,59,37,0.8) 100%);
+    background: linear-gradient(360deg,#9a3412 0%,rgba(208, 154, 28, 0.838) 35%,
+    rgba(176, 104, 3, 0.8) 100%);
     padding: 15px 0;
     border-radius: 4px;
 }
@@ -396,7 +396,7 @@ body{
     display:flex;
     height: 100%;
     width:100%;
-    background-color:rgba(38, 41, 39, 0.2);
+    background-color:rgba(41, 40, 38, 0.2);
     position: absolute;
     top:0;
     bottom:0;
@@ -437,7 +437,7 @@ body{
         clip-path:inset(32px);
     }
     .project-item:hover .text{
-        background-color: rgba(25,61,1,0.6);
+        background-color: rgba(233, 133, 10, 0.3);
     }
 }
 /*==========End of the Finished projects======*/
@@ -445,7 +445,7 @@ body{
 /*---Footer section ---*/
 
 .footer{
-    background:linear-gradient(rgba(162,247,106,0.6),rgba(0,59,37,0.4));
+    background:linear-gradient(#fcd34d,#9a3412);
     padding: 0 0 30px 0;
     color: #000;
     font-size: 15px;
@@ -456,7 +456,7 @@ body{
 .footer .footer-top .footer-des{
     margin-top: -90px;
     margin-bottom: 15px;
-    background:#053001;
+    background:#9a3412;
     color:#fff;
     border-top: 4px solid #b3f19b;
     text-align: center;
@@ -477,8 +477,8 @@ body{
 .footer .footer-top .social-links a{
     font-size: 18px;
     display: inline-block;
-    background: #b3f19b;
-    color:#053001;
+    background: #fcd34d;
+    color:#000000;
     line-height:1;
     padding:8px 0;
     margin-right: 4px;
@@ -489,7 +489,7 @@ body{
     transition: 0.3s;
 }
 .footer .footer-top .social-links a:hover{
-    background: #053001;
+    background: #f97316;
     color: #fff;
     text-decoration: none;
 }
@@ -552,7 +552,7 @@ body{
     background: none;
     font-size:16px;
     padding: 0 20px;
-    background: #053001;
+    background: #9a3412;
     color:#fff;
     transition: 0.3s;
     border-radius:4;
