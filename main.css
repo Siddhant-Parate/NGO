@@ -94,11 +94,11 @@ body{
     margin:10px;
     color:#fff;
     animation-delay:0.5s;
-    border:2px solid #9ef596;
+    border:2px solid #9a3412;
 }
 #hero .hero-btn:hover{
-    background:black;
-    color:black;
+    background:#9a3412;
+    color:#000;
     text-decoration:none;
 }
 @media(min-width:1024px){
@@ -157,7 +157,7 @@ body{
     border-radius:4px;
     color:#000;
     font-weight:bold;
-    border:1px solid #f97316;
+    border:1px solid #9a3412;
     font-size:20px;
     line-height: 30px;
 }
@@ -198,6 +198,7 @@ body{
     position:relative;
 }
 .story-icon{
+
     width:90px;
     height:90px;
     text-align:center;
@@ -205,20 +206,20 @@ body{
 }
 .story-icon i{
     font-size:50px;
-    color:#9a3412;
+    color:#fcd34d;
     mix-blend-mode: difference;
 }
 
 .story-box h2{
     font-size:24px;
     font-weight:bold;
-    color:#fff;
+    color:#fcd34d;
     mix-blend-mode: difference;
 }
 .story-box p{
     font-size: 16px;
     font-weight:light;
-    color:#fff;
+    color:#fcd34d;
     mix-blend-mode: difference;
 }
 
