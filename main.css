@@ -508,30 +508,79 @@ body{
     height: 36px;
     transition: 0.3s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer .footer-top .social-links a:hover{
+    background: #053001;
+    color: #fff;
+    text-decoration: none;
+}
+.footer .footer-top h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    position: relative;
+    padding-bottom: 12px;
+}
+.footer .footer-top .footer-links{
+    margin-bottom: 30px;
+}
+.footer .footer-top .footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer .footer-top .footer-links ul i{
+    padding-right: 2px;
+    color: #000;
+    font-size: 18px;
+    line-height: 1;
+}
+.footer .footer-top .footer-links ul li{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.footer .footer-top .footer-links ul li:first-child{
+    padding-top: 0;
+}
+.footer .footer-top .footer-links ul a{
+    color: #000;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+.footer .footer-top .footer-links ul a:hover{
+    color: #053001;
+}
+.footer .footer-top .footer-newsletter form{
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4;
+}
+.footer .footer-top .footer-newsletter form input[type="email"]{
+    border: 0;
+    padding: 4px;
+    width: calc(100%-110px);
+}
+.footer .footer-top .footer-newsletter form input[type="submit"]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #053001;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 4;
+}
+.footer .footer-top .footer-newsletter form input[type="submit"]:hover{
+    background: #b3f19b;
+    color: #053001;
+}
 
 
 
